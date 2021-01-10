@@ -1,5 +1,5 @@
 ﻿# 🗄️ Mongolia
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/.NET%20Core?style=for-the-badge) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/.NET%20Core/release?label=Release%20Build&style=for-the-badge) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/publish%20to%20nuget/release?color=004880&label=Nuget%20Publish&style=for-the-badge)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/.NET/release?label=Release%20Build&style=for-the-badge) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/publish%20to%20nuget/release?color=004880&label=Nuget%20Publish&style=for-the-badge)
 
 # 👷 Installation
 ## Get it from Nuget
