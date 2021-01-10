@@ -3,7 +3,7 @@
 
 # 👷 Installation
 ## Get it from Nuget
-[Latest](https://nuget.org)
+[Latest](https://www.nuget.org/packages/Mongolia)
 ## Download from releases
 [Latest](https://github.com/EpicTestingTempOrganizationForStuff/Mongolia/releases)
 
