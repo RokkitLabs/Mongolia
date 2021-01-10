@@ -10,6 +10,7 @@
         <RepositoryUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>ORM MONGODB</PackageTags>
+        <NeutralLanguage>en-GB</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>

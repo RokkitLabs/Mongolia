@@ -2,6 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Mongolia ASP.Net Core </Title>
+        <Description>Mongolia extensions for ASP.Net core</Description>
+        <Copyright>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia/blob/master/LICENSE</Copyright>
+        <PackageProjectUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>ORM Mongodb </PackageTags>
+        <NeutralLanguage>en-GB</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>
