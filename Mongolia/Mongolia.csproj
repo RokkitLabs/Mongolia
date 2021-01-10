@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Mongolia</Title>
+        <Description>Mongolia Poggers</Description>
+        <PackageProjectUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/EpicTestingTempOrganizationForStuff/Mongolia</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>ORM MONGODB</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Bson" Version="2.11.5" />
+      <PackageReference Include="MongoDB.Driver" Version="2.11.5" />
+      <PackageReference Include="MongoDB.Driver.GridFS" Version="2.11.5" />
+    </ItemGroup>
+
+</Project>
