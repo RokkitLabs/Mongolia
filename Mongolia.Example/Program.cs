@@ -21,22 +21,6 @@ namespace Mongolia.Example
 			Console.WriteLine(foundUser.ID);
 
 			await foundUser.Delete();
-
-			/*
-				User user = new User()
-				{
-					Username = "00"
-				};
-
-				User user = db.Create<User>();
-				user.Username = "00";
-				await user.Save();
-
-				await user.Save(db);
-
-				User user = db.Create<User>(new { Username = "00" });
-				await user.Save();
-			*/
 		}
 	}
 }

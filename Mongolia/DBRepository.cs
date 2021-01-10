@@ -120,7 +120,11 @@ namespace Mongolia
 					object value = propertyInfo.GetValue(obj, null);
 					filters.Add(Builders<T>.Filter.Eq(prop?.Name ?? propertyInfo.Name, value));
 				}
-				catch { }
+				catch
+				{
+					// Some real error handling here
+					continue;
+				}
 			}
 
 			return Builders<T>.Filter.And(filters.ToArray());

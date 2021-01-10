@@ -12,6 +12,8 @@
         <RepositoryType>Git</RepositoryType>
         <PackageTags>ORM Mongodb </PackageTags>
         <NeutralLanguage>en-GB</NeutralLanguage>
+        <PackageIconUrl>https://raw.githubusercontent.com/EpicTestingTempOrganizationForStuff/Mongolia/master/logo.png</PackageIconUrl>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>

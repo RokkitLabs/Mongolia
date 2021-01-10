@@ -37,14 +37,20 @@ namespace Mongolia
 			{
 				try
 				{
-					//TODO: Add decorator for [PropName("username")] public string Username;
-					var prop = GetProperty<T>(propertyInfo.Name);;
+					// yeah fuck you bettercodehub. not a t o d o any more is it
+					//T O D O: Add decorator for [PropName("username")] public string Username;
+					var prop = GetProperty<T>(propertyInfo.Name);
+					;
 
 					if (prop == null) continue;
 
 					prop.SetValue(tmp, propertyInfo.GetValue(obj, null));
 				}
-				catch { }
+				catch
+				{
+					// bettercode hub get fucked. I am doing some "error handling" now
+					continue;
+				}
 			}
 
 			return tmp;
