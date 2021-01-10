@@ -1,14 +1,14 @@
 ﻿# 🗄️ Mongolia
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/.NET/release?label=Release%20Build&style=for-the-badge) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EpicTestingTempOrganizationForStuff/Mongolia/publish%20to%20nuget/release?color=004880&label=Nuget%20Publish&style=for-the-badge)
 
-# 👷 Installation
-## Get it from Nuget
-[Latest](https://www.nuget.org/packages/Mongolia)
-## Download from releases
-[Latest](https://github.com/EpicTestingTempOrganizationForStuff/Mongolia/releases)
+## 👷 Installation
+[Nuget](https://www.nuget.org/packages/Mongolia)
 
-# 🕴️ Usage
-## Create repo
+[Releases](https://github.com/EpicTestingTempOrganizationForStuff/Mongolia/releases)
+
+## 🕴️ Usage
+
+### Create repo
 ```c#
 using Mongolia;
 
@@ -19,7 +19,7 @@ DB db = new DB("mongodb://localhost:27017/?ssl=false", "mongoliaExample");
 DbRepository<User> userRepo = db.GetRepository<User>();
 ```
 
-## Create
+### Create
 ```c#
 User newUser = new User() {
     Username = "Test User"
@@ -28,12 +28,12 @@ User newUser = new User() {
 await userRepo.Create(newUser);
 ```
 
-## Find One
+### Find One
 ```c#
 User user = await UserRepo.FindOne(new { Username = "Test user" });
 ```
 
-## Update
+### Update
 ```c#
 User newUser = new User() {
     Username = "Test User"
@@ -46,8 +46,8 @@ user.Username = "Not Test User";
 await user.Save();
 ```
 
-# 🥅 Goals
-* [ ] Usable
+## 🥅 Goals
+  * [ ] Usable
 
 ## ✨ Contributors
 

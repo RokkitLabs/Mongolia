@@ -8,16 +8,16 @@ namespace Mongolia.ExampleWeb
 {
 	public class MyControllerFeatureProvider: IApplicationFeatureProvider<ControllerFeature>
 	{
-		public Type[] Controllers;
+		private Type[] controllers;
 
 		public MyControllerFeatureProvider(params Type[] controllers)
 		{
-			Controllers = controllers;
+			this.controllers = controllers;
 		}
 		
 		public void PopulateFeature(IEnumerable<ApplicationPart> parts, ControllerFeature feature)
 		{
-			foreach (Type controllerType in Controllers)
+			foreach (Type controllerType in controllers)
 			{
 				feature.Controllers.Add(controllerType.GetTypeInfo());
 			}
