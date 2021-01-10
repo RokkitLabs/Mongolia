@@ -41,7 +41,10 @@ namespace Mongolia
 
 					prop.SetValue(tmp, propertyInfo.GetValue(obj, null));
 				}
-				catch { }
+				catch
+				{
+					// If it fails to get the property or fails to set the property. Doesn't really matter as it doesn't exist
+				}
 			}
 
 			return tmp;

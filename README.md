@@ -47,7 +47,7 @@ await user.Save();
 ```
 
 ## 🥅 Goals
-  * [ ] Usable
+* [ ] Usable
 
 ## ✨ Contributors
 
