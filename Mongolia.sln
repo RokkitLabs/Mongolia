@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongolia.Example", "Mongoli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongolia.AspNetCore", "Mongolia.AspNetCore\Mongolia.AspNetCore.csproj", "{3EC500E3-0B4B-4FEC-AE0C-9A7E5FEE8C63}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongolia.ExampleWeb", "ExampleWeb\Mongolia.ExampleWeb.csproj", "{3683994A-205C-4AB2-82A4-BF579B0D3470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongolia.ExampleWeb", "Mongolia.ExampleWeb\Mongolia.ExampleWeb.csproj", "{3683994A-205C-4AB2-82A4-BF579B0D3470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
